@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "ee8f0fcb-177a-4451-a388-3fa4d7424ece",
+		"name": "SBDay11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/api/senddata4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\" :\"abcd\",\r\n    \"alamat\":\"adafdlksanvksda jv\",\r\n    \"umur\": 11,\r\n    \"email\":\"mariszawp@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api/senddata4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"senddata4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/v1/areakerja/listall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/v1/areakerja/listall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"areakerja",
+						"listall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/v1/person/listall",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api/v1/person/listall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"v1",
+						"person",
+						"listall"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
